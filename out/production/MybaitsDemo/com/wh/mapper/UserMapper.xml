@@ -8,19 +8,62 @@
 <!--        </select>-->
 <!--</mapper>-->
 <mapper namespace="com.wh.mapper.UserMapper">
-    <select id="selectUser" resultType="com.wh.entily.User" >
-        select  * from  user ;
+<!--    <select id="selectUserDT" resultType="com.wh.entily.User" parameterType="com.wh.entily.User">-->
+<!--        select  * from  user-->
+<!--            <where>-->
+<!--                <if test="id!=null and id!=''">and id = ${id}</if>-->
+<!--                <if test="name!=null and name!=''">and name = ${name}</if>-->
+<!--                <if test="sex!=null and sex!=''">and sex = ${sex}</if>-->
+<!--                <if test="age!=null and age!=''">and age = ${age}</if>-->
+<!--                <if test="tel!=null and tel!=''">and tel = ${tel}</if>-->
+<!--                <if test="address!=null and address!=''">and address = ${address}</if>-->
+<!--                <if test="role!=null and role!=''">and role = ${role}</if>-->
+<!--            </where>-->
+<!--    </select>-->
+    <select id="selectUserDT" resultType="com.wh.entily.User" parameterType="com.wh.entily.User">
+        select  * from  user
+        <where>
+        <choose>
+            <when test="id!=null and id!=''">and id = #{id}</when>
+            <when test="name!=null and name!=''">
+                <bind name="name" value="'%'+name+'%'"></bind>
+                name like #{name}
+            </when>
+            <when test="sex!=null and sex!=''">and sex = #{sex}</when>
+            <when test="age!=null and age!=''">and age = #{age}</when>
+            <when test="tel!=null and tel!=''">and tel =#{tel}</when>
+            <when test="address!=null and address!=''">and address = #{address}</when>
+            <otherwise>and role = #{role}</otherwise>
+<!--            <when test="role!=null and role!=''">and role = ${role}</when>-->
+        </choose>
+        </where>
     </select>
     <insert id="insertUser" parameterType="com.wh.entily.User">
+            <selectKey keyProperty="id" resultType="integer" order="AFTER">
+                select LAST_INSERT_ID();
+            </selectKey>
         INSERT INTO `USER`(id,name,sex,age,tel,address,role,pwd) VALUES(null ,#{name},#{sex},#{age},#{tel},#{address},#{role},#{pwd});
     </insert>
-    <select id="selectUserById" resultType="com.wh.entily.User" parameterType="integer">
-        select * from user where id = #{id};
-    </select>
+
     <delete id="deleteUserById" parameterType="integer" >
         delete  from user where id = #{id};
     </delete>
     <update id="updateUser" parameterType="com.wh.entily.User">
-        update user set name=#{name} , sex=#{sex} , age =#{age} , tel =#{tel} , address=#{address} , role =#{role} where id =#{id};
+        update user
+            <set>
+                <if test="#{name}!=null and #{name}!=''"> name=#{name} ,</if>
+                <if test="#{sex}!=null and #{sex}!=''"> sex=#{sex} ,</if>
+                <if test="#{age}!=null and #{age}!=''"> age=#{age} ,</if>
+                <if test="#{tel}!=null and #{tel}!=''"> tel=#{tel} ,</if>
+                <if test="#{address}!=null and #{address}!=''"> address=#{address} ,</if>
+                <if test="#{role}!=null and #{role}!=''"> role=#{role} ,</if>
+            </set>
+        where id =#{id};
     </update>
+    <select id="SelectNumber" parameterType="java.util.List" resultType="User">
+        select * from user where id
+        <foreach collection="list" item="Numberber" open="in(" separator="," close=")">
+            #{Numberber}
+        </foreach>
+    </select>
 </mapper>

@@ -5,9 +5,9 @@ import com.wh.entily.User;
 import java.util.List;
 
 public interface UserMapper {
-    List<User> selectUser();
+    List<User> selectUserDT(User user);
     int insertUser(User user);
-    User selectUserById(int id);
     int deleteUserById(int id);
     int updateUser(User user);
+    List<User> SelectNumber(List list);
 }

@@ -1,7 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="71c55801-d419-4d98-9975-63fa938a4fa8" name="Default Changelist" comment="" />
+    <list default="true" id="71c55801-d419-4d98-9975-63fa938a4fa8" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MybaitsDemo/com/wh/mapper/UserMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MybaitsDemo/com/wh/mapper/UserMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MybaitsDemo/com/wh/mapper/UserMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MybaitsDemo/com/wh/mapper/UserMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MybaitsDemo/com/wh/test/Demo.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MybaitsDemo/com/wh/test/Demo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MybaitsDemo/mybatis-config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MybaitsDemo/mybatis-config.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resouse/mybatis-config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/resouse/mybatis-config.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/wh/mapper/UserMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/wh/mapper/UserMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/wh/mapper/UserMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/wh/mapper/UserMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/wh/test/Demo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/wh/test/Demo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Shop/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Shop/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,6 +26,9 @@
         <option value="Interface" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
@@ -37,21 +52,22 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Shop" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\IdeaProjects\MybaitsDemo\src\com\wh\mapper" />
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\IdeaProjects\MybaitsDemo\resouse" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.wh.entily" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
+    <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\IdeaProjects\MybaitsDemo\resouse" />
+      <recent name="D:\IdeaProjects\MybaitsDemo\src\com\wh\mapper" />
     </key>
   </component>
   <component name="RunManager" selected="Application.Demo">
@@ -94,6 +110,8 @@
       <updated>1599639432074</updated>
       <workItem from="1599639435437" duration="13078000" />
       <workItem from="1599696106441" duration="5290000" />
+      <workItem from="1599703359362" duration="9793000" />
+      <workItem from="1599721299337" duration="118000" />
     </task>
     <servers />
   </component>
@@ -113,30 +131,38 @@
       <screen x="0" y="0" width="1440" height="860" />
     </state>
     <state x="174" y="77" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1440.860@0.0.1440.860" timestamp="1599645443639" />
-    <state width="1387" height="75" key="GridCell.Tab.0.bottom" timestamp="1599701790939">
+    <state x="450" y="127" key="FileChooserDialogImpl" timestamp="1599703372841">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
-    <state width="1387" height="75" key="GridCell.Tab.0.bottom/0.0.1440.860@0.0.1440.860" timestamp="1599701790939" />
+    <state x="450" y="127" key="FileChooserDialogImpl/0.0.1440.860@0.0.1440.860" timestamp="1599703372841" />
+    <state width="1387" height="118" key="GridCell.Tab.0.bottom" timestamp="1599721272530">
+      <screen x="0" y="0" width="1440" height="860" />
+    </state>
+    <state width="1387" height="118" key="GridCell.Tab.0.bottom/0.0.1440.860@0.0.1440.860" timestamp="1599721272530" />
     <state width="1370" height="80" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1599656798257" />
-    <state width="1387" height="75" key="GridCell.Tab.0.center" timestamp="1599701790939">
+    <state width="1387" height="118" key="GridCell.Tab.0.center" timestamp="1599721272530">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
-    <state width="1387" height="75" key="GridCell.Tab.0.center/0.0.1440.860@0.0.1440.860" timestamp="1599701790939" />
+    <state width="1387" height="118" key="GridCell.Tab.0.center/0.0.1440.860@0.0.1440.860" timestamp="1599721272530" />
     <state width="1370" height="80" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1599656798257" />
-    <state width="1387" height="75" key="GridCell.Tab.0.left" timestamp="1599701790939">
+    <state width="1387" height="118" key="GridCell.Tab.0.left" timestamp="1599721272530">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
-    <state width="1387" height="75" key="GridCell.Tab.0.left/0.0.1440.860@0.0.1440.860" timestamp="1599701790939" />
+    <state width="1387" height="118" key="GridCell.Tab.0.left/0.0.1440.860@0.0.1440.860" timestamp="1599721272530" />
     <state width="1370" height="80" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1599656798257" />
-    <state width="1387" height="75" key="GridCell.Tab.0.right" timestamp="1599701790939">
+    <state width="1387" height="118" key="GridCell.Tab.0.right" timestamp="1599721272530">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
-    <state width="1387" height="75" key="GridCell.Tab.0.right/0.0.1440.860@0.0.1440.860" timestamp="1599701790939" />
+    <state width="1387" height="118" key="GridCell.Tab.0.right/0.0.1440.860@0.0.1440.860" timestamp="1599721272530" />
     <state width="1370" height="80" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1599656798257" />
-    <state x="72" y="0" key="SettingsEditor" timestamp="1599645532958">
+    <state x="72" y="0" key="SettingsEditor" timestamp="1599721417614">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
-    <state x="72" y="0" key="SettingsEditor/0.0.1440.860@0.0.1440.860" timestamp="1599645532958" />
+    <state x="72" y="0" key="SettingsEditor/0.0.1440.860@0.0.1440.860" timestamp="1599721417614" />
+    <state x="0" y="0" key="com.intellij.ide.util.TipDialog" timestamp="1599721302836">
+      <screen x="0" y="0" width="1440" height="860" />
+    </state>
+    <state x="0" y="0" key="com.intellij.ide.util.TipDialog/0.0.1440.860@0.0.1440.860" timestamp="1599721302836" />
     <state x="342" y="303" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1599640845957">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
